@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 30%;
+    height: 35rem;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.cal_display{
+    width: 100%;
+    height: 8rem;
+    background: #222222;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cal_keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+    height: 5.44rem;
+    font-size: 2rem;
+    border: 0.1rem solid #c2c2c2;
+}
+
+.eql{
+    height: 10.65rem;
+    border-bottom-right-radius: 20px;
+    background: orange;
+}
+
+.btn{
+    margin-top: -5.3rem;
+    border-bottom-left-radius: 20px;
+}
