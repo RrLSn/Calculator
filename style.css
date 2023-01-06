@@ -26,6 +26,12 @@ body{
     background: #222222;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 1rem;
 }
 
 .cal_keys{
@@ -34,18 +40,19 @@ body{
 }
 
 button{
-    height: 5.44rem;
+    min-height: 5.44rem;
     font-size: 2rem;
     border: 0.1rem solid #c2c2c2;
 }
 
 .eql{
-    height: 10.65rem;
+    grid-area: 2/4/6/4;
     border-bottom-right-radius: 20px;
-    background: orange;
+    background: #f87d4f;
 }
 
-.btn{
-    margin-top: -5.3rem;
+/* grid-area: horizontal line to start at / vertical line to start at / horizontal line to end at / vertical line to end at; */
+
+.zero{
     border-bottom-left-radius: 20px;
 }
